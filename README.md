@@ -1,6 +1,7 @@
 # skills
 
-Personal agent skills collection installable via the `skills` CLI.
+Personal agent skills collection — installable via the `skills` CLI. Each
+skill lives in its own folder with a `SKILL.md` at minimum.
 
 ## Skills
 
@@ -11,18 +12,20 @@ Personal agent skills collection installable via the `skills` CLI.
 
 ## Install
 
-```bash
-npx skills add peytonli/skills --list
-```
-
-To install a specific skill:
+List available skills:
 
 ```bash
-npx skills add peytonli/skills --skill resume-builder
-npx skills add peytonli/skills --skill review-architecture
+npx skills add PeytonLi/skills --list
 ```
 
-Install globally for all projects by adding `-g`.
+Install a specific skill:
+
+```bash
+npx skills add PeytonLi/skills --skill resume-builder
+npx skills add PeytonLi/skills --skill review-architecture
+```
+
+Add `-g` to install globally.
 
 ## Structure
 
@@ -36,3 +39,7 @@ skills/
     ├── SKILL.md
     └── REFERENCE.md
 ```
+
+## License
+
+MIT — see individual skill folders for details.

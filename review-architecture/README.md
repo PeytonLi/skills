@@ -1,6 +1,7 @@
 # review-architecture skill
 
-Reusable agent skill for deep architecture audits.
+Reusable agent skill for deep architecture audits. Part of the
+[PeytonLi/skills](https://github.com/PeytonLi/skills) collection.
 
 ## Repository contents
 
@@ -10,7 +11,8 @@ Reusable agent skill for deep architecture audits.
 
 ## Publish on skills.sh
 
-There is no manual submit form. skills.sh indexes skills that are installable through the `skills` CLI from public repositories.
+There is no manual submit form. skills.sh indexes skills that are installable
+through the `skills` CLI from public repositories.
 
 ### 1) Push this repo to GitHub
 
@@ -19,7 +21,7 @@ Make sure the repository is public and `SKILL.md` is at the repository root.
 ### 2) Verify installability from the CLI
 
 ```bash
-npx skills add peytonli/review-architecture --list
+npx skills add PeytonLi/skills --list
 ```
 
 Expected result: your skill appears in the list (for this repo, `review-architecture`).
@@ -27,13 +29,13 @@ Expected result: your skill appears in the list (for this repo, `review-architec
 ### 3) Test install of this specific skill
 
 ```bash
-npx skills add peytonli/review-architecture --skill review-architecture
+npx skills add PeytonLi/skills --skill review-architecture
 ```
 
 Optional: install globally for all projects.
 
 ```bash
-npx skills add peytonli/review-architecture --skill review-architecture -g
+npx skills add PeytonLi/skills --skill review-architecture -g
 ```
 
 ### 4) Verify installation
@@ -41,8 +43,6 @@ npx skills add peytonli/review-architecture --skill review-architecture -g
 ```bash
 npx skills list
 ```
-
-Once users install your skill, it becomes visible through the skills ecosystem and ranking pipeline.
 
 ## Local quality checks
 
