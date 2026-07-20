@@ -7,7 +7,8 @@ Reusable agent skill for deep architecture audits. Part of the
 
 - `SKILL.md`: Skill definition with required frontmatter (`name`, `description`)
 - `README.md`: Publishing and usage instructions
-- `LICENSE`: MIT license
+
+See the [root LICENSE](../LICENSE) for terms.
 
 ## Publish on skills.sh
 
@@ -54,4 +55,4 @@ Before pushing changes, validate that `SKILL.md` has:
 
 ## License
 
-MIT (see `LICENSE`)
+MIT — see [LICENSE](../LICENSE) at the repo root.

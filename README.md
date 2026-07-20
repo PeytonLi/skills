@@ -31,10 +31,10 @@ Add `-g` to install globally.
 
 ```
 skills/
+├── LICENSE
 ├── review-architecture/
 │   ├── SKILL.md
-│   ├── README.md
-│   └── LICENSE
+│   └── README.md
 └── resume-builder/
     ├── SKILL.md
     └── REFERENCE.md
@@ -42,4 +42,4 @@ skills/
 
 ## License
 
-MIT — see individual skill folders for details.
+MIT — see [LICENSE](LICENSE).
